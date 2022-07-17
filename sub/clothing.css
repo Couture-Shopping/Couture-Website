@@ -1,0 +1,17 @@
+#product .row
+{   
+    padding: 1rem 0;
+}
+.total
+{
+    display: flex;
+    gap: 2rem;
+}
+.cloth-gallery
+{
+    border-radius: 10px;
+}
+.col-lg-4
+{
+    margin: auto;
+}

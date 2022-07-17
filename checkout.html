@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <link rel="stylesheet" href="assets/css/checkout.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-hexashop.css" />
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css" />
+
+    <link rel="stylesheet" href="assets/css/templatemo-hexashop.css" />
+
+    <link rel="stylesheet" href="assets/css/owl-carousel.css" />
+
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <header class="header-area header-sticky">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" />
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li class="scroll-to-section">
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="scroll-to-section"><a href="#men">Men's</a></li>
+                <li class="scroll-to-section"><a href="#women">Women's</a></li>
+                <li class="scroll-to-section"><a href="#kids">Kid's</a></li>
+                <li class="submenu">
+                  <a href="javascript:;">Pages</a>
+                  <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="single-product.html">Single Product</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </li>
+
+                <li class="scroll-to-section">
+                  <a href="#explore">Explore</a>
+                </li>
+                <li class="shopping-cart">
+                  <a href="checkout.html" class="active"
+                    ><i class="fas fa-shopping-cart"></i>
+                    <div id="shopping-cart-totalItems"></div
+                  ></a>
+                </li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="checkout">
+      <div class="checkout__left">
+        <div>
+          <h2 class="checkout__title">Your shopping Basket</h2>
+        </div>
+
+        <div class="checkoutProduct" id="checkoutAllProducts"></div>
+      </div>
+      <div class="checkout__right">
+        <div class="subtotal">
+          <p>Subtotal: <strong>$</strong> <strong id="totalPrice"></strong></p>
+
+          <button onClick="">Proceed to Checkout</button>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/addToCart.js"></script>
+  </body>
+</html>
